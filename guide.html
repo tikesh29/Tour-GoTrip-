@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tourism guid</title>
+    <link rel="stylesheet" href="guid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <nav class="navigation">
+                <h1 class="icon1">GoTrip</h1>
+                <a href="signup.html" id="a1"><i class="fa-solid fa-house fa-beat-fade"></i>HOME</a>
+                <a href="login.html" id="a2"><i class="fa-solid fa-map-location-dot fa-bounce"></i>TOURS</a>
+                <a href="managebook.html" id="a3"><i class="fa-solid fa-hand-holding-dollar fa-beat-fade"></i>PACKAGES</a>
+                <a href="contect.html" id="a4"><i class="fa-solid fa-blog fa-beat"></i>BLOG</a>
+                <a href="contect.html" id="a5"><i class="fa-regular fa-address-card fa-beat"></i>ABOUT US</a>
+                <a href="contect.html" id="a6"><i class="fa-sharp fa-solid fa-phone fa-bounce"></i>CONTACT US</a>
+            </nav>
+        </div>
+    </header>
+    <hr>
+    <main>
+        <div class="main1">
+            <h1 class="tour2">FIND YOUR NEXT TOURS!</h1>
+            <form>
+                <select name="City" id="CITY">
+                    <option value="non" selected>Plese select your city</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Agra">Agra</option>
+                    <option value="kolkata">Kolkata</option>
+                    <option value="Channei">Channei</option>
+                    <option value="Indore">Indore</option>
+                    <option value="Bhopla">Bhopal</option>
+                    <option value="Phagwara">Phagwara</option>
+                    <option value="Chandighar">Chandighar</option>
+                    <option value="None" disabled>Sorry our Services are limited hear</option>
+                </select>
+                <input type="date" id="date" required>
+                <button id="submit" onclick="alert('Your booking have been done. Thank You for visiting our website. Please Come Again😃')">BOOK</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
