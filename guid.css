@@ -1,0 +1,92 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navigation{
+    display: flex;
+}
+i{
+    margin-right: 10px;
+}
+.icon1{
+    padding-left: 40px;
+}
+#a1{
+    font-size: 20px;
+    padding-top: 15px;
+    margin-left: 380px;
+    display: flex;
+    color: black;
+    text-decoration: none;
+    
+}
+#a2,#a3,#a4,#a5,#a6{
+    font-size: 20px;
+    padding-top: 15px;
+    margin-left: 70px;
+    display: flex;
+    color: black;
+    text-decoration: none;
+    
+}
+#a1:hover,#a2:hover,#a3:hover,#a4:hover, #a5:hover, #a6:hover{
+    color: black;
+    background-color: rgba(96, 82, 82, 0.364);
+    border-radius: 10%;
+    text-decoration:underline;
+}
+.main1{
+    height: 600px;
+    width: 1500px;
+    border: 1px solid black;
+    box-shadow: 2px 3px 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: change 13s infinite steps(1);
+
+}
+@keyframes change{
+    0%{
+        background-image: url("https://images.saymedia-content.com/.image/t_share/MTc0NDcyNzQ2NTMxNTYzMTQy/8-things-kids-need-for-a-family-road-trip.jpg");
+    }
+    25%{
+        background-image: url("https://img.static-rmg.be/a/view/q75/w/h/2135445/7-destinations-parfaites-pour-un-road-trip-jpg.jpg");
+    }
+    50%{
+        background-image: url("https://3.bp.blogspot.com/-URTAQ_Crq4o/Wo7IKIeEz_I/AAAAAAAB9rI/U8aVs8VIo_ceA-RQCfTzEAa1JA9wTgdvQCLcBGAs/s1600/road-trip-indian-license.jpg");
+        
+    }
+    75%{
+        background-image: url("https://tahoesouth.com/wp-content/uploads/2020/11/tahoe-tastings-cruise.jpg");
+    }
+    100%{
+        background-image: url("https://i2.wp.com/www.vagabondesss.com/wp-content/uploads/2016/07/road-trip.jpg");
+    }
+}
+.tour2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:xxx-large;
+    text-align: center;
+    padding-top: 200px;
+    color: yellow;
+}
+#CITY{
+    margin-left: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#date{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#submit{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: yellow;
+}
